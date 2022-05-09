@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.fitnesstrackerfnal.BMICalculatorActivites.BMImainActivity;
+
 public class HomeActivity extends AppCompatActivity {
 
     @Override
@@ -29,8 +31,8 @@ public class HomeActivity extends AppCompatActivity {
         calorieTrackerBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent calorieTrackerIntent = new Intent(HomeActivity.this, CalorieTrackerActivity.class);
-                startActivity(calorieTrackerIntent);
+                Intent bmiCalculatorIntent = new Intent(HomeActivity.this, BMImainActivity.class);
+                startActivity(bmiCalculatorIntent);
             }
         });
     }

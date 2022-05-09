@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".WorkoutTimers.CableCrossoverTimer">
+
+    <TextView
+        android:id="@+id/cablecrossoverworkoutTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Cable Crossover"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/cablecrossoverDiv1WorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cablecrossoverworkoutTitlePage"
+        />
+
+    <TextView
+        android:id="@+id/cablecrossoverworkoutSubtitlePage"
+        android:layout_width="350dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Stand between two facing cable stations with both pulleys set midway between the top and bottom of the station.
+Attach a D-handle to each pulley and hold one in each hand.
+Keep your elbows slightly bent, and step forward so there’s tension on the cables.
+Flex your pecs as you bring your hands together out in front of your chest. Alternate stretching and flexing after each set."
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cablecrossoverDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/cablecrossoverDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cablecrossoverworkoutSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="157dp"
+        android:src="@drawable/cablecrossover"
+        app:layout_constraintBottom_toTopOf="@+id/cablecrosover_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cablecrossoverDivWorkoutTimerPage" />
+
+    <Button
+        android:id="@+id/cablecrossover_countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/cablecrosover_countdown_text"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/cablecrossover_countdown_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cablecrossoverDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.853" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

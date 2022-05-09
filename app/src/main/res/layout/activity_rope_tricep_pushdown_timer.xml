@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".WorkoutTimers.Triceps.RopeTricepPushdownTimer">
+
+    <TextView
+        android:id="@+id/ropetriceppushdownworkoutTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Rope Tricep Pushdown"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/ropetriceppushdownDiv1WorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ropetriceppushdownworkoutTitlePage"
+        />
+
+    <TextView
+        android:id="@+id/ropetriceppushdownworkoutSubtitlePage"
+        android:layout_width="343dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Attach a rope handle to the high pulley of a cable station. Bend your arms and grab the bar with an overhand grip, your hands shoulder-width apart. Tuck your upper arms next to your sides.
+Without moving your upper arms, push the bar down until your elbows are locked. Slowly return to the starting position.
+"
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ropetriceppushdownDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/ropetriceppushdownDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ropetriceppushdownworkoutSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="191dp"
+        android:src="@drawable/ropetriceppushdown"
+        app:layout_constraintBottom_toTopOf="@+id/ropetriceppushdown_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ropetriceppushdownDivWorkoutTimerPage" />
+
+    <Button
+        android:id="@+id/ropetriceppushdown_countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ropetriceppushdown_countdown_text"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/ropetriceppushdown_countdown_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ropetriceppushdownDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.858" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

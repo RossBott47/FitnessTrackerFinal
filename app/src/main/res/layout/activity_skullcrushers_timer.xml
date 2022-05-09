@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".WorkoutTimers.Triceps.SkullcrushersTimer">
+
+    <TextView
+        android:id="@+id/skullcrushersworkoutTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Skullcrushers"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/skullcrushersDiv1WorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/skullcrushersworkoutTitlePage"
+        />
+
+
+    <TextView
+        android:id="@+id/skullcrushersworkoutSubtitlePage"
+        android:layout_width="366dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Grip the EZ bar on the inner grips using an overhand grip and extend your arms straight up.
+Keeping your elbows fixed and tucked in, slowly lower the bar until it is about an inch from your forehead. Always keep your upper arms perpendicular to the floor.
+Slowly extend your arms back to the starting position without locking your elbows."
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skullcrushersDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/skullcrushersDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/skullcrushersworkoutSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="191dp"
+        android:src="@drawable/skullcrushergif"
+        app:layout_constraintBottom_toTopOf="@+id/skullcrushers_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skullcrushersDivWorkoutTimerPage" />
+
+    <Button
+        android:id="@+id/skullcrushers_countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/skullcrushers_countdown_text"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/skullcrushers_countdown_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skullcrushersDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.867" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

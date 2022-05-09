@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".WorkoutTimers.Back.RearFlysTimer">
+
+    <TextView
+        android:id="@+id/rearflysworkoutTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Rear Flys"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rearflysDiv1WorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rearflysworkoutTitlePage"
+        />
+
+    <TextView
+        android:id="@+id/rearflysworkoutSubtitlePage"
+        android:layout_width="370dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Stand bent 45 degrees at your hips, head up, gripping a low weight dumbbell in each hand.
+Lift your arms out to the sides until they are parallel to the ground.
+Lower back down to perpendicular, then repeat."
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rearflysDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/rearflysDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rearflysworkoutSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="191dp"
+        android:src="@drawable/rearlys"
+        app:layout_constraintBottom_toTopOf="@+id/rearflys_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rearflysDivWorkoutTimerPage" />
+
+    <Button
+        android:id="@+id/rearflys_countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/rearflys_countdown_text"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/rearflys_countdown_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rearflysDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.867" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fitnesstrackerfnal" >
+    package="com.example.fitnesstrackerfnal">
 
     <application
         android:allowBackup="true"
@@ -8,30 +8,138 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FitnessTrackerFnal" >
+        android:theme="@style/Theme.FitnessTrackerFnal">
         <activity
-            android:name=".ChestWorkoutActivityTimer"
+            android:name=".WorkoutTimers.Triceps.OneArmKettlebellFloorPressTimer"
             android:exported="false" />
         <activity
-            android:name=".BackWorkoutActivity"
+            android:name=".WorkoutTimers.Triceps.DiamondPressUpTimer"
             android:exported="false" />
         <activity
-            android:name=".LegsWorkoutActivity"
+            android:name=".WorkoutTimers.Triceps.SkullcrushersTimer"
             android:exported="false" />
         <activity
-            android:name=".TricepWorkoutActivity"
+            android:name=".WorkoutTimers.Triceps.IsolatedTricepExtensionTimer"
             android:exported="false" />
         <activity
-            android:name=".ShoulderWorkoutActivity"
+            android:name=".WorkoutTimers.Triceps.TricepDipsTimer"
             android:exported="false" />
         <activity
-            android:name=".BicepWorkoutActivity"
+            android:name=".WorkoutTimers.Triceps.RopeTricepPushdownTimer"
             android:exported="false" />
         <activity
-            android:name=".ChestWorkoutActivity"
+            android:name=".WorkoutTimers.Back.KettleBellSwingsTimer"
             android:exported="false" />
         <activity
-            android:name=".CalorieTrackerActivity"
+            android:name=".WorkoutTimers.Back.LatPullDownsTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Back.PullupsTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Back.SingleArmRowTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Back.RearFlysTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Back.BackRowsTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Shoulders.UprightRowTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Shoulders.BentOverReverseFlyTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Shoulders.CirclePressTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Shoulders.LateralDeltRaiseTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Shoulders.FrontDeltRaiseTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Shoulders.OverheadShoulderPressTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Legs.SeatedCalfRaiseTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Legs.BarbellHipThrustTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Legs.LegPressTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Legs.DumbellStepUpTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Legs.FrontSquatTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.Legs.SquatTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutAreaActivities.ChestWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutAreaActivities.TricepWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutAreaActivities.BackWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutAreaActivities.LegsWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutAreaActivities.ShoulderWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.WideGripCurlTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.ReverseCurl"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.PreacherCurlTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.SideCurlTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.BandCurlTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.HammerCurlTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutAreaActivities.BicepWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.FloorPressTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.CableCrossoverTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.InclineDumbellFlyTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.PushupsTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.CableFlyTimer"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutTimers.BenchTimer"
+            android:exported="false" />
+        <activity
+            android:name=".BMICalculatorActivites.BMIresultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BMICalculatorActivites.BMImainActivity"
             android:exported="false" />
         <activity
             android:name=".WorkoutActivity"
@@ -41,7 +149,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

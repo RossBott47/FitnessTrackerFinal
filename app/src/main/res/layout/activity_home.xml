@@ -22,7 +22,7 @@
         android:layout_width="122dp"
         android:layout_height="195dp"
         android:layout_marginEnd="72dp"
-        android:text="Track Calories"
+        android:text="Calculate BMI"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

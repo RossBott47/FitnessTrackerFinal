@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".WorkoutTimers.PreacherCurlTimer">
+
+    <TextView
+        android:id="@+id/preachercurlworkoutTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Preacher Curl"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/preachercurlDiv1WorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/preachercurlworkoutTitlePage"
+        />
+
+    <TextView
+        android:id="@+id/preachercurlworkoutSubtitlePage"
+        android:layout_width="336dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Sit at a preacher bench, and adjust the bench height so your armpits touch the top of the bench. Grasp an EZ-curl bar overhand at shoulder-width. Curl it up, keeping the backs of your arms against the bench. Take three seconds to lower the bar back down, flexing your triceps as you do it (as if you were performing a cable pushdown)."
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preachercurlDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/preachercurlDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/preachercurlworkoutSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="191dp"
+        android:src="@drawable/preachercurl"
+        app:layout_constraintBottom_toTopOf="@+id/preachercurl_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preachercurlDivWorkoutTimerPage" />
+
+    <Button
+        android:id="@+id/preachercurl_countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/preachercurl_countdown_text"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/preachercurl_countdown_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preachercurlDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.881" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

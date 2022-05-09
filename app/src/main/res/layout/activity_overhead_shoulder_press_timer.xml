@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".WorkoutTimers.Shoulders.OverheadShoulderPressTimer">
+
+    <TextView
+        android:id="@+id/overheadshoulderpressworkoutTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Overhead Shoulder Press"
+        android:textColor="#2196F3"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/overheadshoulderpressDiv1WorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overheadshoulderpressworkoutTitlePage"
+        />
+
+    <TextView
+        android:id="@+id/overheadshoulderpressworkoutSubtitlePage"
+        android:layout_width="353dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8dp"
+        android:text="This exercise can be done standing or seated. With a dumbbell in each hand and holding the weights at the shoulders with an overhand grip, start with your feet hip-distance apart, keeping the back straight. Press up and bring the dumbbells together over your head, then slowly lower back to starting position."
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overheadshoulderpressDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/overheadshoulderpressDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/overheadshoulderpressworkoutSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="191dp"
+        android:src="@drawable/overheadshoulderpress"
+        app:layout_constraintBottom_toTopOf="@+id/overheadshoulderpress_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overheadshoulderpressDivWorkoutTimerPage" />
+
+    <Button
+        android:id="@+id/overheadshoulderpress_countdown_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/overheadshoulderpress_countdown_text"
+        android:layout_width="321dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/overheadshoulderpress_countdown_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overheadshoulderpressDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.899" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

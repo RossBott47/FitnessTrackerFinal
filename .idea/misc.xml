@@ -3,6 +3,71 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.297" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/boxbackground.xml" value="0.1" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/boxfocusing.xml" value="0.1" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/boxnormal.xml" value="0.1" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/cardbackground.xml" value="0.1" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/fitnessApp_background.xml" value="0.197" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/fitnessApp_foreground.xml" value="0.197" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.297" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/drawable/incrementdecrement.xml" value="0.1" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_back_rows_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_back_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_band_curl_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_barbell_hip_thrust_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_bent_over_reverse_fly_timer.xml" value="0.33" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_bicep_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_bmi_result.xml" value="0.33" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_bmimain.xml" value="0.25" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_cable_crossover_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_cable_fly_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_cable_fly_workout_activty.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_calorie_tracker.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_calorie_tracker_main.xml" value="0.33" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_chest_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_chest_workout_activty.xml" value="0.33" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_chest_workout_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_circle_press_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_diamond_press_up_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_dumbell_step_up_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_floor_press_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_front_delt_raise_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_front_squat_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_hammer_curl_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_incline_dumbell_fly_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_isolated_tricep_extension.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_isolated_tricep_extension_timer.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_kettle_bell_swings_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_lat_pull_downs_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_lateral_delt_raise_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_leg_press_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_legs_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_legs_workout_activty.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_one_arm_kettlebell_floor_press_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_overhead_shoulder_press_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_preacher_curl_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_pullups_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_pushups_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_rear_flys_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_reverse_curl.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_rope_tricep_pushdown_timer.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_seated_calf_raise_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_shoulder_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_side_curl_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_single_arm_row_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_skullcrushers_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_squat_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_tricep_dips_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_tricep_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_upright_row_timer.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_wide_grip_curl_timer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/layout/activity_workout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/mipmap-anydpi-v26/fitnessApp.xml" value="0.197" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/mipmap-anydpi-v26/fitnessApp_round.xml" value="0.297" />
+        <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFinal/app/src/main/res/mipmap-anydpi-v26/fitnessapp.xml" value="0.297" />
         <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFnal/app/src/main/res/font/archivo_black.xml" value="0.21354166666666666" />
         <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFnal/app/src/main/res/layout/activity_calorie_tracker.xml" value="0.12685185185185185" />
         <entry key="..\:/Users/Ross/AndroidStudioProjects/FitnessTrackerFnal/app/src/main/res/layout/activity_chest_workout_activty.xml" value="0.36666666666666664" />

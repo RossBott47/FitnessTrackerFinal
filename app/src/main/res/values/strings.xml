@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FitnessTrackerFnal</string>
+    <string name="hintFood">What did you eat?</string>
+    <string name="Calories">How many Calories?</string>
+    <string name="submit_button">submit</string>
+    <string name="a_healthy_bmi_ranges_from_18_25">A healthy BMI Ranges from 18-25</string>
 </resources>
