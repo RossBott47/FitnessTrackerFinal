@@ -8,34 +8,20 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/workoutTitlePage"
+        android:id="@+id/chestworkoutTimerTitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:lineSpacingExtra="8dp"
-        android:text="Workout List"
+        android:text="Bench Press"
         android:textColor="#2196F3"
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/workoutSubtitlePage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="5dp"
-        android:lineSpacingExtra="8dp"
-        android:text="Pick which chest exercise to perform"
-        android:textColor="#2196F3"
-        android:textSize="17sp"
-        app:fontFamily="sans-serif"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/workoutTitlePage" />
-
     <View
-        android:id="@+id/divWorkoutTimerPage"
+        android:id="@+id/chestDiv1WorkoutTimerPage"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="20dp"
@@ -44,11 +30,49 @@
         android:background="#25293E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/workoutSubtitlePage"
+        app:layout_constraintTop_toBottomOf="@id/chestworkoutTimerTitlePage"
         />
 
+    <TextView
+        android:id="@+id/chestworkoutTimerSubtitlePage"
+        android:layout_width="328dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Grasp the bar just outside shoulder-width and arch your back so there’s space between your lower back and the bench.
+Pull the bar out of the rack and lower it to your sternum, tucking your elbows about 45° to your sides.
+When the bar touches your body, drive your feet hard into the floor and press the bar back up."
+        android:textColor="#2196F3"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestDiv1WorkoutTimerPage" />
+
+    <View
+        android:id="@+id/chestDivWorkoutTimerPage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="#25293E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chestworkoutTimerSubtitlePage"
+        />
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="191dp"
+        android:src="@drawable/benchpress"
+        app:layout_constraintBottom_toTopOf="@+id/chest1Timer_countdown_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestDivWorkoutTimerPage" />
+
     <Button
-        android:id="@+id/countdown_button"
+        android:id="@+id/chest1Timer_countdown_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Timer"
@@ -57,16 +81,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/countdown_text"
+        android:id="@+id/chest1Timer_countdown_text"
         android:layout_width="321dp"
         android:layout_height="112dp"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="#2196F3"
         android:textSize="64dp"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/countdown_button"
+        app:layout_constraintBottom_toTopOf="@+id/chest1Timer_countdown_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divWorkoutTimerPage" />
+        app:layout_constraintTop_toBottomOf="@+id/chestDivWorkoutTimerPage"
+        app:layout_constraintVertical_bias="0.875" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

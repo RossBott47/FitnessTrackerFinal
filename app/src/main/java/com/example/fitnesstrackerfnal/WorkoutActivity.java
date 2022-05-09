@@ -7,6 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.fitnesstrackerfnal.WorkoutAreaActivities.BackWorkoutActivity;
+import com.example.fitnesstrackerfnal.WorkoutAreaActivities.BicepWorkoutActivity;
+import com.example.fitnesstrackerfnal.WorkoutAreaActivities.ChestWorkoutActivity;
+import com.example.fitnesstrackerfnal.WorkoutAreaActivities.LegsWorkoutActivity;
+import com.example.fitnesstrackerfnal.WorkoutAreaActivities.ShoulderWorkoutActivity;
+import com.example.fitnesstrackerfnal.WorkoutAreaActivities.TricepWorkoutActivity;
+
 public class WorkoutActivity extends AppCompatActivity {
 
     LinearLayout workout1;

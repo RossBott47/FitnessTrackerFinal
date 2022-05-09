@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".ChestWorkoutActivity">
+    tools:context=".WorkoutAreaActivities.ChestWorkoutActivity">
 
     <TextView
-        android:id="@+id/workoutTitlePage"
+        android:id="@+id/chestworkoutTitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/workoutSubtitlePage"
+        android:id="@+id/chestworkoutSubtitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -32,10 +32,10 @@
         android:textSize="17sp"
         app:fontFamily="sans-serif"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/workoutTitlePage" />
+        app:layout_constraintTop_toBottomOf="@+id/chestworkoutTitlePage" />
 
     <View
-        android:id="@+id/workoutDivPage"
+        android:id="@+id/chestworkoutDivPage"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="20dp"
@@ -44,11 +44,11 @@
         android:background="#2196F3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/workoutSubtitlePage"
+        app:layout_constraintTop_toBottomOf="@id/chestworkoutSubtitlePage"
         />
 
     <LinearLayout
-        android:id="@+id/workout1Exercise"
+        android:id="@+id/chestworkout1Exercise"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -57,12 +57,12 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/workoutDivPage">
+        app:layout_constraintTop_toBottomOf="@+id/chestworkoutDivPage">
 
         <ImageView
             android:layout_width="110dp"
             android:layout_height="70dp"
-            android:src="@drawable/chest" />
+            android:src="@drawable/benchpress" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,10 +72,190 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/workout1ExerciseTitle"
+                android:id="@+id/chestworkout1ExerciseTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bench Press"
+                android:textColor="#2196F3"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chestworkout2Exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestworkout1Exercise">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cablefly" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chestworkout2ExerciseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cable Fly"
+                android:textColor="#2196F3"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chestworkout3Exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestworkout2Exercise">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/pushups" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chestworkout3ExerciseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Push ups"
+                android:textColor="#2196F3"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chestworkout4Exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestworkout3Exercise">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/inclinedumbellfly" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chestworkout4ExerciseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Incline Dumbell fly"
+                android:textColor="#2196F3"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chestworkout5Exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestworkout4Exercise">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cablecrossover" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chestworkout5ExerciseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cable Crossover"
+                android:textColor="#2196F3"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chestworkout6Exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestworkout5Exercise">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:src="@drawable/floorpress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chestworkout6ExerciseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Floor Press"
                 android:textColor="#2196F3"
                 android:textSize="17sp" />
 
